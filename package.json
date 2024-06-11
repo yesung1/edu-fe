@@ -1,0 +1,25 @@
+{
+  "name": "edu-fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-api": "orval generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^6.0.1",
+    "prettier": "^2.7.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@tanstack/react-query-devtools": "^4.29.0",
+    "@tanstack/react-query": "^4.28.0"
+  }
+}
